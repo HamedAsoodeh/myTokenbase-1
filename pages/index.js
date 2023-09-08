@@ -42,7 +42,6 @@ export default function Home() {
 
   const burnMemeToken = async (burnAmount) => {
     try {
-      const signer = await getProviderOrSigner(true);
       const tokenContract = new Contract(
         TOKEN_CONTRACT_ADDRESS,
         TOKEN_CONTRACT_ABI,
