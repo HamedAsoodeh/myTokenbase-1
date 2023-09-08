@@ -1,16 +1,6 @@
 export const TOKEN_CONTRACT_ADDRESS = "0x3859f4114fe4e01bd73e6b2239bd3043bb701bcb"; 
 export const TOKEN_CONTRACT_ABI = [
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"indexed": true,
-				"internalType": "address",
-				"name": "owner",
-				"type": "address"
-			},
-			{
-				"indexed": true,
+	{"anonymous": false,"inputs": [{"indexed": true,
 				"internalType": "address",
 				"name": "spender",
 				"type": "address"
