@@ -17,10 +17,6 @@ export default function Home() {
   const [isOwner, setIsOwner] = useState(false);
   const web3ModalRef = useRef();
 
-  const getTokensToBeClaimed = async () => {
-    const MAX_TOTAL_SUPPLY = BigInt(1000000000000000 * 10 ** 18);
-    setTokensToBeClaimed(69000000);
-  };
 
   const getBalanceOfFCKFTokens = async () => {
     try {
@@ -40,12 +36,18 @@ export default function Home() {
     }
   };
 
+  const getTokensToBeClaimed = async () => {
+    const MAX_TOTAL_SUPPLY = BigInt(1000000000000000 * 10 ** 18);
+    setTokensToBeClaimed(69000000);
+  };
+
+  
   const burnMemeToken = async (burnAmount) => {
     try {
       const tokenContract = new Contract(
         TOKEN_CONTRACT_ADDRESS,
         TOKEN_CONTRACT_ABI,
-        signer
+        
       );
       console.log("Amount Eth: ", burnAmount);
       const tx = await tokenContract.burn(BigInt(burnAmount * 10 ** 18));
