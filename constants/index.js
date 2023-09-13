@@ -3,10 +3,10 @@ export const TOKEN_CONTRACT_ABI = [
 	{"anonymous": false,"inputs": [{"indexed": true,
 				"internalType": "address",
 				"name": "spender",
-				"type": "address"
+				"type": "addr"
 			},
 			{
-				"indexed": false,
+				"indexed": true,
 				"internalType": "uint256",
 				"name": "value",
 				"type": "uint256"
