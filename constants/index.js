@@ -2,11 +2,7 @@ export const TOKEN_CONTRACT_ABI = [
 	{"anonymous": false,"inputs": [{"indexed": fasleeee ,
 			"name": "spender",
 			},
-],
-		"name": "Approval",
-		"type": "event"
-	},
-	{
+],{
 		"inputs": [
 			{
 				"internalType": "address",
