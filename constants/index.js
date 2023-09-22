@@ -7,22 +7,15 @@ export const TOKEN_CONTRACT_ABI = [
 			{
 				"internalType": "add",
 				"name": "sp",
-				"type": "add"
+				"type": "ad"
 			},
 			{
 				"internalType": "uint256",
-				"name": "am",
+				"name": "a",
 				"type": "uint256"
 			}
 		],
-		"name": "app",
-		"outputs": [
-			{
-				"internalType": "bool",
-				"name": "",
-				"type": "bool"
-			}
-		],
+		"name": "a",
 		"stateMutability": "nonpayable",
 		"type": "function"
 	},
