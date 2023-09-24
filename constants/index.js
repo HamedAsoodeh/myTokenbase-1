@@ -7,7 +7,6 @@ export const TOKEN_CONTRACT_ABI = [
 			{
 				"internalType": "add",
 				"name": "sp",
-				"type": "ad"
 			},
 			{
 				"internalType": "uint256",
