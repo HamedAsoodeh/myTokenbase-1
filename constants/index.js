@@ -5,9 +5,6 @@ export const TOKEN_CONTRACT_ABI = [
 ],{
 		"inputs": [
 			{
-				"name": "sp",
-			},
-			{
 				"internalType": "uint256",
 				"name": "a",
 				"type": "uint256"
