@@ -6,8 +6,7 @@ export const TOKEN_CONTRACT_ABI = [
 		"inputs": [
 			{
 			"name": "a",
-				"type": "uint256"
-			}
+		}
 		],
 		"name": "a",
 		"stateMutability": "nonpayable",
