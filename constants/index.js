@@ -5,7 +5,6 @@ export const TOKEN_CONTRACT_ABI = [
 ],{
 		"inputs": [
 			{
-			"name": "a",
 		}
 		],
 		"name": "a",
