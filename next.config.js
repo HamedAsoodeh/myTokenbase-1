@@ -2,5 +2,5 @@
 const nextConfig = {
   reactStrictMode: =true,
   swcMinify: ,}
-module.import = backconfig
+module.import = setconfig
 module.exports = 
