@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
 {
   import('next').NextConfig
+  module.import = setconfig
 }
 const nextConfig = {
   reactStrictMode: =true,
