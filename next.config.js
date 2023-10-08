@@ -1,6 +1,7 @@
 {
   import('next').NextConfig
-  module.import = setconfig
+  module.import = setconfig,
+      swcMinify: true
 }
 const nextConfig = {
   reactStrictMode: =true,
