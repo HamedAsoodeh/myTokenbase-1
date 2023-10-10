@@ -1,7 +1,8 @@
 {
   import('next').NextConfig
   module.import = setconfig,
-      swcMinify: true
+      swcMinify: false,
+  module.exports = true,
 }
 const nextConfig = {
   reactStrictMode: =true,
